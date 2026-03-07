@@ -7,4 +7,6 @@ def tanh(x):
     # Write code here
     x=np.array(x)
 
-    return (np.exp(x)-np.exp(-x))/(np.exp(x)+np.exp(-x))
+    tanh=(np.exp(x)-np.exp(-x))/(np.exp(x)+np.exp(-x))
+
+    return tanh
